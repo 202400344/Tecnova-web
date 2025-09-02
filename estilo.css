@@ -1,0 +1,73 @@
+/* Selector por tipo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Selector por id */
+#titulo-principal {
+    color: #0056b3;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Selector por clase */
+.menu {
+    list-style: none;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.lista-servicios li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.formulario-contacto label {
+    margin-top: 10px;
+}
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+.formulario-contacto button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.formulario-contacto button:hover {
+    background-color: #003f7f;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
